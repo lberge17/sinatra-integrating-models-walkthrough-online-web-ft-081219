@@ -33,3 +33,9 @@ class TextAnalyzer
       if v > biggest.values.first
         biggest = {}
         biggest[key] = value
+      end
+    end
+    
+    biggest
+  end
+end
