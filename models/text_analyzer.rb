@@ -32,7 +32,7 @@ class TextAnalyzer
     arr2.each do |k, v|
       if v > biggest.values.first
         biggest = {}
-        biggest[k] = value
+        biggest[k] = v
       end
     end
     
